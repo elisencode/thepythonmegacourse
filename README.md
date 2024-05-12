@@ -49,3 +49,30 @@ My python codes here
    `cd .idea rm .gitignore`
 
 5. Be careful: Multiple '.git' Directories inside Project Repo
+
+---
+
+[How to Remove .idea Directory from .git](https://otakoyi.software/blog/how-to-remove-idea-directory-from-git)
+
+```
+If you have accidentally added the .idea directory to .git repository, and you don’t want it to be there, then there is an easy way to remove it. You just have to use the command line and do the following:
+
+# Create file .gitignore
+touch .gitignore
+
+# Add .idea to .gitignore
+echo '.idea' >> .gitignore
+
+# Remove directory from staging
+git rm -r --cached .idea
+
+# Add file to git
+git add .gitignore
+
+# Commit changes
+git commit -m "Removed .idea from git"
+
+# Push changes
+git push
+```
+
