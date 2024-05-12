@@ -24,5 +24,28 @@ Ardit Sulce
 
 ---
 
+My python codes here
+
+---
 
 
+
+[[error: ‘’ does not have a commit checked out fatal:](https://stackoverflow.com/questions/56873278/how-to-fix-error-filename-does-not-have-a-commit-checked-out-fatal-adding) Github commit error.](https://medium.com/@cryptobeastchain/error-filename-does-not-have-a-commit-checked-out-fatal-github-commit-error-07f28ca215b7)
+
+1. Nested Git Repositories
+
+   `cd subfolder view hidden files rm -rf .git`
+
+2. '.git'
+
+   `rm -rf ./.git`
+
+3. Check for existing Git Repositories:
+
+   `find . -name ".git" -type d -exec rm -rf {} \; git add .`
+
+4. '.gitignore' file in '.idea' directory
+
+   `cd .idea rm .gitignore`
+
+5. Be careful: Multiple '.git' Directories inside Project Repo
