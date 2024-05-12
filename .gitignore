@@ -244,3 +244,5 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
+# [How to Remove .idea Directory from .git](https://otakoyi.software/blog/how-to-remove-idea-directory-from-git)
+.idea
