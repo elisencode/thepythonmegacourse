@@ -19,10 +19,3 @@ To be able to run the Python code shown in these notebooks you should have Pytho
 
 ### Author
 Ardit Sulce
-
-
-
----
-
-
-
