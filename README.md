@@ -76,3 +76,10 @@ git commit -m "Removed .idea from git"
 git push
 ```
 
+---
+
+[git rm -r –cached](https://jessitron.com/2014/01/12/removing-files-from-git/)
+
+Get it out of the staging area BUT NOT the working directory:
+
+`git rm -r –cached`
