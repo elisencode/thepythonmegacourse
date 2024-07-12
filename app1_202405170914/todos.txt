@@ -1,4 +1,5 @@
 prepare
-shower
 play
-fix
+Fix it well
+Write
+fix the computer
